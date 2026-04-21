@@ -16,6 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://aaron-pweb.github.io/my-portfolio/"),
   title: "Aaron | Engineer • Entrepreneur • Christian",
   description: "Professional Engineering Portfolio with Retro Terminal Aesthetic. Based in Mekelle, Ethiopia.",
   keywords: ["Engineering", "Entrepreneurship", "Mekelle", "Ethiopia", "Christian Engineer", "Full Stack Developer", "Python", "Data Science"],

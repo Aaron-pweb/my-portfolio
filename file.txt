@@ -1,0 +1,29 @@
+
+Role: Expert Frontend Developer (React, TypeScript, Tailwind CSS, Framer Motion).
+Goal: Build a professional, cinematic, and interactive portfolio website with a Retro/Old-school Engineering Terminal aesthetic.
+1. Visual Style (The "Retro-Future" Look)
+Theme: Dark mode by default, inspired by old engineering workstations (think IBM or early NASA computers).
+Colors: Deep blacks, dark grays, and "Phosphor Green" or "Amber" text highlights.
+Typography: Use a monospaced pixel font (like VT323) for headers and a clean, readable font (like JetBrains Mono) for body text.
+Effects: A subtle CRT screen flicker, scanlines, and a slight green glow on text.
+2. The Experience (Cinematic & Interactive)
+The "Boot" Intro: When the site loads, show a fast-scrolling "System Diagnostic" text (e.g., "Initializing Engineering Modules...", "Loading Entrepreneurial Data...", "Establishing Faith-Based Core...").
+Navigation: A sleek, retro-styled navigation bar at the top or side that feels like a terminal menu.
+Animations: Use Framer Motion for "glitch" transitions and smooth scrolling between sections.
+3. Site Sections (The "Everything" Content)
+The site should be a single-page scrolling experience (or multi-page) with these sections:
+Hero: A cinematic introduction showing: "Aaron | Engineer • Entrepreneur • Christian." Use a high-quality photo with a retro-filter overlay.
+Engineering & Ventures: A grid of cards showing your projects. Since there is NO CMS, pull this data from a local projects.ts file. Show GitHub stats for Aaron-pweb here.
+Photography Gallery: A high-end, interactive gallery. When a photo is clicked, it should expand with a cinematic "zoom" effect. Data comes from a local photos.ts.
+The Map: An interactive map (using React-Leaflet) styled in "Retro-Dark" mode, showing pins of your business and personal locations.
+Journal (Blogs): A section that renders local Markdown (.mdx) files as blog posts. Style them to look like printed terminal reports.
+The Faith Section: A dedicated, clean area that shares your Christian values, perhaps with a "Verse of the Day" display.
+4. Technical Instructions
+Framework: Next.js (App Router), TypeScript, Tailwind CSS.
+Data Management: Create a src/data/ folder. Use TypeScript objects/arrays to store all project, photography, and map data. 
+GitHub Integration: Use react-github-calendar to display activity for the user Aaron-pweb.
+Components:
+Build a RetroCard component with beveled edges and a glowing border.
+Build a TerminalText component that "types out" text as the user scrolls.
+Responsiveness: The site must look like a high-end terminal on desktop and a "handheld engineering tool" on mobile.
+

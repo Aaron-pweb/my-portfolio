@@ -19,7 +19,7 @@ export const Hero: React.FC = () => {
           <div className="absolute inset-0 rounded-full border-2 border-phosphor/50 p-1 overflow-hidden group">
             <div className="w-full h-full rounded-full overflow-hidden grayscale contrast-125 brightness-90 hover:grayscale-0 transition-all duration-700 relative">
               <img 
-                src="/profile.jpg" 
+                src="/my-portfolio/profile.jpg" 
                 alt="Aaron" 
                 className="w-full h-full object-cover"
               />

@@ -23,11 +23,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aaron | Engineer • Entrepreneur • Christian",
     description: "Professional Engineering Portfolio with Retro Terminal Aesthetic.",
-    url: "https://aaron-pweb.github.io/",
+    url: "https://aaron-pweb.github.io/my-portfolio/",
     siteName: "Aaron Portfolio",
     images: [
       {
-        url: "/profile.jpg",
+        url: "/my-portfolio/profile.jpg",
         width: 800,
         height: 800,
         alt: "Aaron Teshale",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aaron | Engineer • Entrepreneur • Christian",
     description: "Professional Engineering Portfolio with Retro Terminal Aesthetic.",
-    images: ["/profile.jpg"],
+    images: ["/my-portfolio/profile.jpg"],
   },
 };
 

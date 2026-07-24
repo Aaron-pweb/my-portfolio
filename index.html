@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Clean Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="logo" href="#home">Portfolio</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-shell">
+        <p class="eyebrow">Available for new projects</p>
+        <div class="hero-grid">
+          <div>
+            <h1>Hi, I’m Your Name. I design and build clean digital experiences.</h1>
+            <p class="hero-copy">
+              A simple, modern portfolio built with pure HTML and CSS. Replace
+              this text with a short intro about your work, your goals, and the
+              value you bring to every project.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work">View Work</a>
+              <a class="button secondary" href="#contact">Contact Me</a>
+            </div>
+          </div>
+          <aside class="profile-card" aria-label="Profile summary">
+            <div class="avatar">YN</div>
+            <h2>Your Name</h2>
+            <p>Frontend Developer · Designer · Problem Solver</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell two-column">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Focused on clarity, usability, and thoughtful details.</h2>
+        </div>
+        <p>
+          I create responsive websites and interfaces that are easy to use and
+          pleasant to look at. My style is minimal, organized, and practical —
+          with attention to typography, spacing, and smooth user journeys.
+        </p>
+      </section>
+
+      <section id="work" class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Recent projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span>01</span>
+            <h3>Brand Landing Page</h3>
+            <p>A clean marketing page with strong typography and clear calls to action.</p>
+          </article>
+          <article class="project-card">
+            <span>02</span>
+            <h3>Portfolio Redesign</h3>
+            <p>A personal website focused on readability, speed, and responsive layout.</p>
+          </article>
+          <article class="project-card">
+            <span>03</span>
+            <h3>Dashboard Concept</h3>
+            <p>A simple interface concept for presenting metrics and daily activity.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell skills-section">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and strengths</h2>
+        </div>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Responsive Design</li>
+          <li>UI Design</li>
+          <li>Accessibility</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section-shell contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something clean and useful.</h2>
+        <p>Email me at <a href="mailto:hello@example.com">hello@example.com</a></p>
+      </section>
+    </main>
+  </body>
+</html>
